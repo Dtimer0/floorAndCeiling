@@ -2,7 +2,15 @@
 name = "floorAndCeiling"
 version = "0.1.0"
 edition = "2021"
-
+license = "MIT"
+description = "Tiny crate that contains floor and ceiling functions"
+repository = "https://github.com/Dtimer0/floorAndCeiling"
+keywords = ["floor", "ceiling", "math", "utils"]
+categories = ["mathematics"]
+readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[profile.dev]
+opt-level = 3
